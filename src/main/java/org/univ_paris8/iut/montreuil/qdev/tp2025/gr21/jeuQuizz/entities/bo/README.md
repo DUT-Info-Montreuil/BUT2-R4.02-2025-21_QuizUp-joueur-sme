@@ -1,0 +1,1 @@
+Objet representant la source d donnéée (fichier csv, bd...) 
