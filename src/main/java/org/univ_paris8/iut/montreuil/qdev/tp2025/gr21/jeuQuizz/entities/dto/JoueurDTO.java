@@ -18,7 +18,7 @@ public class JoueurDTO {
     private final List<Map<Integer, String>> scores;
 
 
-    public JoueurDTO(String nom, String pseudo, int anneeNaissance, int partiesJouees, List<String> centresInterets, Langues langagePrefere) {
+    public JoueurDTO(String nom, String pseudo, int anneeNaissance, int partiesJouees, List<String> centresInterets, String langagePrefere) {
         this.pseudo = pseudo;
         this.nom = nom;
         this.anneeNaissance = anneeNaissance;
