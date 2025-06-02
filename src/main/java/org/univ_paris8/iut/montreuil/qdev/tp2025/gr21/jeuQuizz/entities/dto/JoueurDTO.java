@@ -68,6 +68,7 @@ public class JoueurDTO {
         return scores;
     }
 
+
     @Override
     public String toString() {
         return "JoueurDTO[" +
@@ -93,4 +94,6 @@ public class JoueurDTO {
     public int hashCode() {
         return Objects.hashCode(pseudo);
     }
+
+
 }
